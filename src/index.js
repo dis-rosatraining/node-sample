@@ -9,7 +9,7 @@ var month = today.getMonth()+1;
 var day = today.getDate();
 
 app.get("/",function(req,res){
-    res.send(month + '月'+ day + '日 ' + 'Wellcome to DiS わぁるど')  
+    res.send(month + '月'+ day + '日  ' + 'Wellcome to ICT Expo')  
     res.send()
 })
 
